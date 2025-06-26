@@ -1,7 +1,7 @@
 
 import React from 'react';
 import { Button } from '@/components/ui/button';
-import { Phone, Globe, Truck, Shield, Clock } from 'lucide-react';
+import { Globe, Shield, Clock } from 'lucide-react';
 
 const CTASection = () => {
   return (
@@ -26,24 +26,12 @@ const CTASection = () => {
         <div className="bg-white rounded-lg shadow-2xl p-8 mb-8 text-slate-900">
           <h3 className="text-2xl font-bold mb-6 text-red-600">Order Your Cupilo Knee Massager Today</h3>
           
-          <div className="grid md:grid-cols-2 gap-8 mb-8">
-            <div className="space-y-4">
-              <div className="flex items-center justify-center">
-                <Phone className="w-6 h-6 text-red-600 mr-3" />
-                <div>
-                  <p className="font-bold text-xl">Call Now:</p>
-                  <p className="text-2xl font-bold text-red-600">1-800-XXX-XXXX</p>
-                </div>
-              </div>
-            </div>
-            
-            <div className="space-y-4">
-              <div className="flex items-center justify-center">
-                <Globe className="w-6 h-6 text-red-600 mr-3" />
-                <div>
-                  <p className="font-bold text-xl">Online:</p>
-                  <p className="text-xl font-bold text-red-600">www.DrRichterKnee.com</p>
-                </div>
+          <div className="mb-8">
+            <div className="flex items-center justify-center">
+              <Globe className="w-6 h-6 text-red-600 mr-3" />
+              <div>
+                <p className="font-bold text-xl">Online:</p>
+                <p className="text-xl font-bold text-red-600">www.DrRichterKnee.com</p>
               </div>
             </div>
           </div>
@@ -56,10 +44,6 @@ const CTASection = () => {
           </Button>
           
           <div className="flex flex-wrap justify-center gap-6 text-sm">
-            <div className="flex items-center">
-              <Truck className="w-4 h-4 text-green-600 mr-2" />
-              <span>Same-day shipping</span>
-            </div>
             <div className="flex items-center">
               <Shield className="w-4 h-4 text-green-600 mr-2" />
               <span>90-day money-back guarantee</span>

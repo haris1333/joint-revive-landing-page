@@ -45,7 +45,7 @@ const HeroSection = () => {
         </Button>
         
         <p className="text-sm text-slate-500 mt-4">
-          ⚡ Same-day shipping • 90-day money-back guarantee
+          ⚡ 90-day money-back guarantee
         </p>
       </div>
     </section>
