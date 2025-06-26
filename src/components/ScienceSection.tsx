@@ -121,7 +121,7 @@ const ScienceSection = () => {
           {/* "After" Photo of Mother */}
           <div className="mb-6">
             <img 
-              src="https://images.unsplash.com/photo-1465146344425-f00d5f5c8f07?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&q=80" 
+              src="/lovable-uploads/d0d56aa6-6cb2-498f-82a7-dd1e82aa75f7.png" 
               alt="Elderly woman happily gardening, kneeling in bright sunny garden"
               className="w-full max-w-md mx-auto h-64 object-cover rounded-lg shadow-md"
             />

@@ -41,7 +41,7 @@ const StorySection = () => {
               {/* "Before" Photo of Mother */}
               <div className="mb-4">
                 <img 
-                  src="https://images.unsplash.com/photo-1721322800607-8c38375eef04?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&q=80" 
+                  src="/lovable-uploads/6c0d3e4c-105a-45b4-8cda-a986f02bcc2e.png" 
                   alt="Elderly woman sitting sadly by window looking at garden"
                   className="w-full h-48 object-cover rounded-lg shadow-md"
                 />
