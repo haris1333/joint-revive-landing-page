@@ -8,19 +8,22 @@ const TestimonialsSection = () => {
       name: "Margaret K.",
       age: 69,
       text: "I was scheduled for surgery in three weeks. After using this for two months, I cancelled my appointment. I'm golfing 3-4 times a week now and haven't used my handicap parking sticker once.",
-      rating: 5
+      rating: 5,
+      image: "https://images.unsplash.com/photo-1582562124811-c09040d0a901?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=400&q=80"
     },
     {
       name: "Robert T.",
       age: 71,
       text: "As a retired carpenter, I thought my days of building things were over. Last month I built my granddaughter a treehouse. The pain is gone and I'm starting to walk up steps foot over foot instead of one at a time.",
-      rating: 5
+      rating: 5,
+      image: "https://images.unsplash.com/photo-1618160702438-9b02ab6515c9?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=400&q=80"
     },
     {
       name: "Dorothy L.",
       age: 74,
       text: "I just wanted to finish yard work without limping. Now I actually enjoy doing chores again. I feel fantastic.",
-      rating: 5
+      rating: 5,
+      image: "https://images.unsplash.com/photo-1472396961693-142e6e269027?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=400&q=80"
     }
   ];
 
@@ -57,15 +60,27 @@ const TestimonialsSection = () => {
         <div className="grid md:grid-cols-3 gap-8">
           {testimonials.map((testimonial, index) => (
             <div key={index} className="bg-white rounded-lg shadow-lg p-6">
+              <div className="flex items-center mb-4">
+                <div className="w-12 h-12 rounded-full overflow-hidden mr-4">
+                  <img 
+                    src={testimonial.image} 
+                    alt={testimonial.name}
+                    className="w-full h-full object-cover"
+                  />
+                </div>
+                <div>
+                  <div className="font-bold text-slate-900">{testimonial.name}</div>
+                  <div className="text-sm text-slate-600">age {testimonial.age}</div>
+                </div>
+              </div>
+              
               <div className="flex mb-4">
                 {[...Array(testimonial.rating)].map((_, i) => (
                   <Star key={i} className="w-5 h-5 text-yellow-400 fill-current" />
                 ))}
               </div>
-              <p className="text-slate-700 mb-4 italic">"{testimonial.text}"</p>
-              <div className="text-sm text-slate-600">
-                <strong>{testimonial.name}</strong>, age {testimonial.age}
-              </div>
+              
+              <p className="text-slate-700 italic">"{testimonial.text}"</p>
             </div>
           ))}
         </div>

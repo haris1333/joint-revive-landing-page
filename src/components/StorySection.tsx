@@ -4,11 +4,27 @@ import { X, CheckCircle } from 'lucide-react';
 
 const StorySection = () => {
   const failedTreatments = [
-    "Anti-inflammatory medications upset her stomach and caused dangerous blood pressure spikes",
-    "Cortisone injections provided only two weeks of relief before pain returned worse",
-    "Expensive hinged brace gathered dust - too bulky and uncomfortable",
-    "Physical therapy left her in more pain than when she started"
+    {
+      text: "Anti-inflammatory medications upset her stomach and caused dangerous blood pressure spikes",
+      icon: "💊"
+    },
+    {
+      text: "Cortisone injections provided only two weeks of relief before pain returned worse",
+      icon: "💉"
+    },
+    {
+      text: "Expensive hinged brace gathered dust - too bulky and uncomfortable",
+      icon: "🦵"
+    },
+    {
+      text: "Physical therapy left her in more pain than when she started",
+      icon: "🤸‍♀️"
+    }
   ];
+
+  const scrollToNextCTA = () => {
+    document.getElementById('breakthrough-cta')?.scrollIntoView({ behavior: 'smooth' });
+  };
 
   return (
     <section className="py-16 px-4 bg-white">
@@ -21,6 +37,16 @@ const StorySection = () => {
           <div>
             <div className="bg-blue-50 rounded-lg p-6 mb-6">
               <h3 className="text-xl font-bold text-slate-900 mb-4">My Mother at 72:</h3>
+              
+              {/* "Before" Photo of Mother */}
+              <div className="mb-4">
+                <img 
+                  src="https://images.unsplash.com/photo-1721322800607-8c38375eef04?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&q=80" 
+                  alt="Elderly woman sitting sadly by window looking at garden"
+                  className="w-full h-48 object-cover rounded-lg shadow-md"
+                />
+              </div>
+              
               <ul className="space-y-2">
                 <li className="flex items-center text-slate-700">
                   <CheckCircle className="w-5 h-5 text-green-600 mr-3 flex-shrink-0" />
@@ -47,8 +73,8 @@ const StorySection = () => {
             <ul className="space-y-3">
               {failedTreatments.map((treatment, index) => (
                 <li key={index} className="flex items-start text-slate-700">
-                  <X className="w-5 h-5 text-red-600 mr-3 flex-shrink-0 mt-0.5" />
-                  <span>{treatment}</span>
+                  <span className="text-2xl mr-3 flex-shrink-0">{treatment.icon}</span>
+                  <span>{treatment.text}</span>
                 </li>
               ))}
             </ul>

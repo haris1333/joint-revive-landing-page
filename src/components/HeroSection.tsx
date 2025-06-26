@@ -25,8 +25,12 @@ const HeroSection = () => {
         
         <div className="bg-white rounded-lg shadow-lg p-8 mb-8 border-l-4 border-blue-600">
           <div className="flex items-center justify-center mb-4">
-            <div className="w-16 h-16 bg-blue-100 rounded-full flex items-center justify-center">
-              <span className="text-2xl font-bold text-blue-600">DR</span>
+            <div className="w-20 h-20 rounded-full overflow-hidden border-4 border-blue-600">
+              <img 
+                src="/lovable-uploads/917a12ad-5ab4-4bc6-bfa9-32b105254a9d.png" 
+                alt="Dr. Klaus Richter" 
+                className="w-full h-full object-cover"
+              />
             </div>
           </div>
           <h3 className="text-2xl font-bold text-slate-900 mb-2">Dr. Klaus Richter</h3>

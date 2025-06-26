@@ -26,6 +26,16 @@ const CTASection = () => {
         <div className="bg-white rounded-lg shadow-2xl p-8 mb-8 text-slate-900">
           <h3 className="text-2xl font-bold mb-6 text-red-600">Order Your Cupilo Knee Massager Today</h3>
           
+          {/* "What's in the Box" Image */}
+          <div className="mb-6">
+            <img 
+              src="https://images.unsplash.com/photo-1501854140801-50d01698950b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=600&q=80" 
+              alt="Cupilo Knee Massager complete package with device, charging cable, and extension straps"
+              className="w-full max-w-md mx-auto h-48 object-cover rounded-lg shadow-md"
+            />
+            <p className="text-sm text-slate-600 mt-2">Complete package includes: Cupilo Knee Massager, charging cable, and extension straps</p>
+          </div>
+          
           <div className="mb-8">
             <div className="flex items-center justify-center">
               <Globe className="w-6 h-6 text-red-600 mr-3" />
@@ -40,8 +50,15 @@ const CTASection = () => {
             size="lg" 
             className="bg-red-600 hover:bg-red-700 text-white px-12 py-6 text-xl font-bold rounded-lg shadow-lg transform hover:scale-105 transition-all duration-200 mb-6"
           >
-            ORDER NOW - RISK FREE
+            ► Yes! Send My Cupilo Massager Today!
           </Button>
+          
+          {/* New Reassurance Link */}
+          <div className="mb-6">
+            <a href="#guarantee" className="text-blue-600 hover:text-blue-800 underline text-sm">
+              Click Here to See Our 90-Day "Pain-Free or It's Free" Guarantee
+            </a>
+          </div>
           
           <div className="flex flex-wrap justify-center gap-6 text-sm">
             <div className="flex items-center">
@@ -55,7 +72,7 @@ const CTASection = () => {
           </div>
         </div>
         
-        <div className="bg-white/10 rounded-lg p-6">
+        <div id="guarantee" className="bg-white/10 rounded-lg p-6">
           <p className="text-sm mb-2">
             <strong>Dr. Klaus Richter</strong> is a retired orthopedic specialist who spent 30 years practicing in Munich, Germany. He has published over 40 peer-reviewed papers on joint health and mobility.
           </p>

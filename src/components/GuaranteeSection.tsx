@@ -36,6 +36,17 @@ const GuaranteeSection = () => {
               </div>
               <h3 className="text-xl font-bold text-slate-900 mb-3">{feature.title}</h3>
               <p className="text-slate-700">{feature.description}</p>
+              
+              {/* Add product detail shot for Comfort-Fit system */}
+              {feature.title === "Comfort-Fit™ Strapping System" && (
+                <div className="mt-4">
+                  <img 
+                    src="https://images.unsplash.com/photo-1506744038136-46273834b3fb?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=400&q=80" 
+                    alt="High-quality strap system close-up"
+                    className="w-full h-32 object-cover rounded-lg shadow-md"
+                  />
+                </div>
+              )}
             </div>
           ))}
         </div>
@@ -52,26 +63,30 @@ const GuaranteeSection = () => {
           </div>
           
           <div className="text-center">
-            <h4 className="text-xl font-semibold text-slate-900 mb-4">Compare the Costs:</h4>
-            <div className="grid md:grid-cols-2 gap-6">
-              <div className="bg-red-50 rounded-lg p-6">
-                <h5 className="text-lg font-bold text-red-800 mb-2">Knee Replacement Surgery</h5>
-                <ul className="text-slate-700 space-y-1">
-                  <li>💰 $50,000+ cost</li>
-                  <li>⏰ Months of painful recovery</li>
-                  <li>⚠️ 30% still experience pain after</li>
-                  <li>🚫 Irreversible procedure</li>
-                </ul>
-              </div>
-              
-              <div className="bg-green-50 rounded-lg p-6">
-                <h5 className="text-lg font-bold text-green-800 mb-2">Cupilo Knee Massager</h5>
-                <ul className="text-slate-700 space-y-1">
-                  <li>✅ Fraction of the cost</li>
-                  <li>✅ Use at home, your schedule</li>
-                  <li>✅ 90-day guarantee</li>
-                  <li>✅ Completely reversible</li>
-                </ul>
+            <h4 className="text-xl font-semibold text-slate-900 mb-6">Compare the Costs:</h4>
+            
+            {/* Visual Cost Comparison Chart */}
+            <div className="bg-white rounded-lg p-8 shadow-lg">
+              <div className="flex items-end justify-center space-x-8 h-64">
+                <div className="flex flex-col items-center">
+                  <div className="bg-red-500 w-20 h-48 rounded-t-lg flex items-end justify-center pb-4">
+                    <span className="text-white font-bold text-sm transform -rotate-90">$50,000+</span>
+                  </div>
+                  <div className="text-center mt-4">
+                    <h5 className="text-sm font-bold text-red-800">Knee Replacement</h5>
+                    <p className="text-xs text-slate-600">Surgery</p>
+                  </div>
+                </div>
+                
+                <div className="flex flex-col items-center">
+                  <div className="bg-green-500 w-20 h-16 rounded-t-lg flex items-center justify-center">
+                    <span className="text-white font-bold text-xs">Fraction</span>
+                  </div>
+                  <div className="text-center mt-4">
+                    <h5 className="text-sm font-bold text-green-800">Cupilo Knee</h5>
+                    <p className="text-xs text-slate-600">Massager</p>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
