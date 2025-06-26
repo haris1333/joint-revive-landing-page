@@ -1,4 +1,3 @@
-
 import React from 'react';
 import { Zap, RotateCcw, Sun } from 'lucide-react';
 
@@ -123,7 +122,7 @@ const ScienceSection = () => {
             <img 
               src="/lovable-uploads/d0d56aa6-6cb2-498f-82a7-dd1e82aa75f7.png" 
               alt="Elderly woman happily gardening, kneeling in bright sunny garden"
-              className="w-full max-w-md mx-auto h-64 object-cover rounded-lg shadow-md"
+              className="w-full max-w-md mx-auto h-auto rounded-lg shadow-md"
             />
           </div>
           

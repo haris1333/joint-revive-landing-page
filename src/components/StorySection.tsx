@@ -1,4 +1,3 @@
-
 import React from 'react';
 import { X, CheckCircle } from 'lucide-react';
 
@@ -43,7 +42,7 @@ const StorySection = () => {
                 <img 
                   src="/lovable-uploads/6c0d3e4c-105a-45b4-8cda-a986f02bcc2e.png" 
                   alt="Elderly woman sitting sadly by window looking at garden"
-                  className="w-full h-48 object-cover rounded-lg shadow-md"
+                  className="w-full h-auto rounded-lg shadow-md"
                 />
               </div>
               
