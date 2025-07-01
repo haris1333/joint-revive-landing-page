@@ -12,7 +12,7 @@ const GuaranteeSection = () => {
     {
       icon: <Award className="w-8 h-8" />,
       title: "Comfort-Fit™ Strapping System",
-      description: "Medical-grade materials with high-tensile velcro and extension straps for any leg size. Designed for comfort during extended use."
+      description: "Medical-grade materials with high-tensile velco and extension straps for any leg size. Designed for comfort during extended use."
     },
     {
       icon: <Clock className="w-8 h-8" />,
@@ -37,12 +37,12 @@ const GuaranteeSection = () => {
               <h3 className="text-xl font-bold text-slate-900 mb-3">{feature.title}</h3>
               <p className="text-slate-700">{feature.description}</p>
               
-              {/* Add product detail shot for Comfort-Fit system */}
+              {/* Replace tree photo with grandfather and granddaughter */}
               {feature.title === "Comfort-Fit™ Strapping System" && (
                 <div className="mt-4">
                   <img 
-                    src="https://images.unsplash.com/photo-1506744038136-46273834b3fb?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=400&q=80" 
-                    alt="High-quality strap system close-up"
+                    src="/lovable-uploads/cb24501a-55f1-41e6-b067-1bf867eefdee.png" 
+                    alt="Happy grandfather and granddaughter gardening together"
                     className="w-full h-32 object-cover rounded-lg shadow-md"
                   />
                 </div>
@@ -80,10 +80,10 @@ const GuaranteeSection = () => {
                 
                 <div className="flex flex-col items-center">
                   <div className="bg-green-500 w-20 h-16 rounded-t-lg flex items-center justify-center">
-                    <span className="text-white font-bold text-xs">Fraction</span>
+                    <span className="text-white font-bold text-xs">$99</span>
                   </div>
                   <div className="text-center mt-4">
-                    <h5 className="text-sm font-bold text-green-800">Cupilo Knee</h5>
+                    <h5 className="text-sm font-bold text-green-800">ReviveKnee™</h5>
                     <p className="text-xs text-slate-600">Massager</p>
                   </div>
                 </div>

@@ -7,14 +7,14 @@ const TestimonialsSection = () => {
     {
       name: "Margaret K.",
       age: 69,
-      text: "I was scheduled for surgery in three weeks. After using this for two months, I cancelled my appointment. I'm golfing 3-4 times a week now and haven't used my handicap parking sticker once.",
+      text: "I was scheduled for surgery in three weeks. After using ReviveKnee™ for two months, I cancelled my appointment. I'm golfing 3-4 times a week now and haven't used my handicap parking sticker once.",
       rating: 5,
       image: "https://images.unsplash.com/photo-1582562124811-c09040d0a901?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=400&q=80"
     },
     {
       name: "Robert T.",
       age: 71,
-      text: "As a retired carpenter, I thought my days of building things were over. Last month I built my granddaughter a treehouse. The pain is gone and I'm starting to walk up steps foot over foot instead of one at a time.",
+      text: "As a retired carpenter, I thought my days of building things were over. Last month I built my granddaughter a treehouse. The ReviveKnee™ Massager is amazing and the pain is gone. I'm starting to walk up steps foot over foot instead of one at a time.",
       rating: 5,
       image: "https://images.unsplash.com/photo-1618160702438-9b02ab6515c9?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=400&q=80"
     },

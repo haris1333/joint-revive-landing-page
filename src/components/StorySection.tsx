@@ -82,6 +82,25 @@ const StorySection = () => {
           </div>
         </div>
         
+        {/* New Product Introduction Block */}
+        <div className="bg-gradient-to-r from-blue-50 to-green-50 rounded-lg p-8 mb-8">
+          <p className="text-lg text-slate-800 mb-4">
+            Nothing worked. Pills. Injections. Braces. Physical therapy. Each left my mother worse off than before.
+          </p>
+          <p className="text-lg text-slate-800 mb-4">
+            But what finally helped her reclaim her independence wasn't surgery...
+          </p>
+          <p className="text-lg text-slate-800 mb-4">
+            It was a simple, at-home therapy device I helped develop after 30 years in orthopedic medicine:
+          </p>
+          <p className="text-2xl font-bold text-blue-600 mb-4">
+            The ReviveKnee™ Massager.
+          </p>
+          <p className="text-lg text-slate-800">
+            But before I explain how it works, let me show you why nothing else could have helped her—and maybe why you're still in pain too.
+          </p>
+        </div>
+        
         <div className="bg-slate-100 rounded-lg p-8 text-center mb-8">
           <p className="text-xl text-slate-800 mb-4">
             As I watched this strong, independent woman become a prisoner in her own home, I realized something that <strong>shook me to my core</strong>:

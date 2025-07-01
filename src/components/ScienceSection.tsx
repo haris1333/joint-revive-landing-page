@@ -87,6 +87,13 @@ const ScienceSection = () => {
               </div>
             </div>
           </div>
+          
+          {/* New ReviveKnee Authority Link Paragraph */}
+          <div className="mt-8 bg-blue-50 rounded-lg p-6">
+            <p className="text-lg text-slate-800">
+              When I realized that the real cause was what I now call 'inflammatory stagnation,' I became obsessed with fixing it. That obsession led to the creation of the <strong>ReviveKnee™ Massager</strong>—built specifically to restore healthy circulation inside the joint.
+            </p>
+          </div>
         </div>
 
         {/* Strategic CTA Button after Inflammatory Stagnation */}
@@ -100,6 +107,13 @@ const ScienceSection = () => {
         </div>
         
         <div className="mb-12">
+          {/* New ReviveKnee Introduction Paragraph */}
+          <div className="text-center mb-8">
+            <p className="text-xl text-slate-800 mb-6">
+              I designed the <strong>ReviveKnee™ Massager</strong> to reverse inflammatory stagnation through a 3-phase, synergistic system you can use right at home.
+            </p>
+          </div>
+          
           <h3 className="text-2xl font-bold text-center text-slate-900 mb-8">
             Synergistic Joint Rejuvenation System
           </h3>
