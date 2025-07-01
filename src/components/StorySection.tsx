@@ -1,3 +1,4 @@
+
 import React from 'react';
 import { X, CheckCircle } from 'lucide-react';
 
@@ -32,17 +33,17 @@ const StorySection = () => {
           When the System Failed the One Person Who Mattered Most
         </h2>
         
-        <div className="grid md:grid-cols-2 gap-12 items-center mb-12">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-12 items-center mb-12">
           <div>
             <div className="bg-blue-50 rounded-lg p-6 mb-6">
               <h3 className="text-xl font-bold text-slate-900 mb-4">My Mother at 72:</h3>
               
-              {/* "Before" Photo of Mother */}
+              {/* "Before" Photo of Mother - Fixed for mobile */}
               <div className="mb-4">
                 <img 
                   src="/lovable-uploads/6c0d3e4c-105a-45b4-8cda-a986f02bcc2e.png" 
                   alt="Elderly woman sitting sadly by window looking at garden"
-                  className="w-full h-auto rounded-lg shadow-md"
+                  className="w-full h-auto max-w-full object-contain rounded-lg shadow-md"
                 />
               </div>
               

@@ -4,6 +4,10 @@ import { Button } from '@/components/ui/button';
 import { Globe, Shield, Clock } from 'lucide-react';
 
 const CTASection = () => {
+  const handleOrderClick = () => {
+    window.open('https://healthylivingforall.online/products/knee', '_blank');
+  };
+
   return (
     <section id="cta-section" className="py-16 px-4 bg-gradient-to-b from-red-600 to-red-700 text-white">
       <div className="max-w-4xl mx-auto text-center">
@@ -26,12 +30,12 @@ const CTASection = () => {
         <div className="bg-white rounded-lg shadow-2xl p-8 mb-8 text-slate-900">
           <h3 className="text-2xl font-bold mb-6 text-red-600">Order Your Cupilo Knee Massager Today</h3>
           
-          {/* "What's in the Box" Image */}
+          {/* Updated "What's in the Box" Image */}
           <div className="mb-6">
             <img 
-              src="https://images.unsplash.com/photo-1501854140801-50d01698950b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=600&q=80" 
-              alt="Cupilo Knee Massager complete package with device, charging cable, and extension straps"
-              className="w-full max-w-md mx-auto h-48 object-cover rounded-lg shadow-md"
+              src="/lovable-uploads/5f174e17-ff34-400d-a956-2cb50f643d37.png" 
+              alt="Cupilo Knee Massager complete package with device and accessories"
+              className="w-full max-w-md mx-auto h-auto object-contain rounded-lg shadow-md"
             />
             <p className="text-sm text-slate-600 mt-2">Complete package includes: Cupilo Knee Massager, charging cable, and extension straps</p>
           </div>
@@ -47,8 +51,9 @@ const CTASection = () => {
           </div>
           
           <Button 
+            onClick={handleOrderClick}
             size="lg" 
-            className="bg-red-600 hover:bg-red-700 text-white px-12 py-6 text-xl font-bold rounded-lg shadow-lg transform hover:scale-105 transition-all duration-200 mb-6"
+            className="bg-red-600 hover:bg-red-700 text-white px-6 sm:px-12 py-4 sm:py-6 text-lg sm:text-xl font-bold rounded-lg shadow-lg transform hover:scale-105 transition-all duration-200 mb-6 w-full sm:w-auto"
           >
             ► Yes! Send My Cupilo Massager Today!
           </Button>
