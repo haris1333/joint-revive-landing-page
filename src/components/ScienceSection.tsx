@@ -114,11 +114,12 @@ const ScienceSection = () => {
           </p>
           
           {/* "After" Photo of Mother - Fixed for mobile */}
-          <div className="mb-6">
+          <div className="mb-6 flex justify-center">
             <img 
               src="/lovable-uploads/d0d56aa6-6cb2-498f-82a7-dd1e82aa75f7.png" 
               alt="Elderly woman happily gardening, kneeling in bright sunny garden"
-              className="w-full max-w-md mx-auto h-auto object-contain rounded-lg shadow-md"
+              className="w-full max-w-xs sm:max-w-sm md:max-w-md h-auto object-cover rounded-lg shadow-md"
+              style={{ maxHeight: '300px', objectFit: 'cover' }}
             />
           </div>
           

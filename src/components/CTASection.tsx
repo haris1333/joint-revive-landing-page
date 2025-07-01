@@ -53,9 +53,9 @@ const CTASection = () => {
           <Button 
             onClick={handleOrderClick}
             size="lg" 
-            className="bg-red-600 hover:bg-red-700 text-white px-6 sm:px-12 py-4 sm:py-6 text-lg sm:text-xl font-bold rounded-lg shadow-lg transform hover:scale-105 transition-all duration-200 mb-6 w-full sm:w-auto"
+            className="bg-red-600 hover:bg-red-700 text-white px-4 sm:px-8 md:px-12 py-3 sm:py-4 md:py-6 text-sm sm:text-lg md:text-xl font-bold rounded-lg shadow-lg transform hover:scale-105 transition-all duration-200 mb-6 w-full max-w-xs sm:max-w-sm md:max-w-md mx-auto leading-tight"
           >
-            ► Yes! Send My Cupilo Massager Today!
+            <span className="text-center">► Yes! Send My Cupilo Massager Today!</span>
           </Button>
           
           {/* New Reassurance Link */}
