@@ -35,6 +35,10 @@ const TestimonialsSection = () => {
     "People sleeping through the night without throbbing, aching knees"
   ];
 
+  const scrollToFinalCTA = () => {
+    document.getElementById('cta-section')?.scrollIntoView({ behavior: 'smooth' });
+  };
+
   return (
     <section className="py-16 px-4 bg-slate-50">
       <div className="max-w-6xl mx-auto">
@@ -57,7 +61,7 @@ const TestimonialsSection = () => {
           </div>
         </div>
         
-        <div className="grid md:grid-cols-3 gap-8">
+        <div className="grid md:grid-cols-3 gap-8 mb-8">
           {testimonials.map((testimonial, index) => (
             <div key={index} className="bg-white rounded-lg shadow-lg p-6">
               <div className="flex items-center mb-4">
@@ -84,8 +88,18 @@ const TestimonialsSection = () => {
             </div>
           ))}
         </div>
+
+        {/* Strategic CTA Button after testimonials */}
+        <div className="text-center mb-8">
+          <button 
+            onClick={scrollToFinalCTA}
+            className="bg-purple-600 hover:bg-purple-700 text-white px-8 py-4 text-lg font-semibold rounded-lg shadow-lg transform hover:scale-105 transition-all duration-200"
+          >
+            ► I Want Results Like This Too
+          </button>
+        </div>
         
-        <div className="text-center mt-8">
+        <div className="text-center">
           <p className="text-lg text-slate-700">
             <strong>These aren't isolated cases.</strong> When you restore proper circulation to joint tissue that's been starving for oxygen and nutrients, the body's own healing mechanisms can accomplish what surgery and drugs cannot.
           </p>

@@ -1,7 +1,7 @@
 
 import React from 'react';
 import { Button } from '@/components/ui/button';
-import { Globe, Shield, Clock } from 'lucide-react';
+import { Shield, Clock } from 'lucide-react';
 
 const CTASection = () => {
   const handleOrderClick = () => {
@@ -40,15 +40,10 @@ const CTASection = () => {
             <p className="text-sm text-slate-600 mt-2">Complete package includes: Cupilo Knee Massager, charging cable, and extension straps</p>
           </div>
           
-          <div className="mb-8">
-            <div className="flex items-center justify-center">
-              <Globe className="w-6 h-6 text-red-600 mr-3" />
-              <div>
-                <p className="font-bold text-xl">Online:</p>
-                <p className="text-xl font-bold text-red-600">www.DrRichterKnee.com</p>
-              </div>
-            </div>
-          </div>
+          {/* Urgent Call to Action */}
+          <p className="text-xl font-bold text-red-600 mb-6">
+            Don't wait until surgery is your only option—your knees deserve a second chance now.
+          </p>
           
           <Button 
             onClick={handleOrderClick}

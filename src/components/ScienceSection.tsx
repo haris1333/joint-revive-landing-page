@@ -21,7 +21,7 @@ const ScienceSection = () => {
     }
   ];
 
-  const scrollToCTA = () => {
+  const scrollToFinalCTA = () => {
     document.getElementById('cta-section')?.scrollIntoView({ behavior: 'smooth' });
   };
 
@@ -88,6 +88,16 @@ const ScienceSection = () => {
             </div>
           </div>
         </div>
+
+        {/* Strategic CTA Button after Inflammatory Stagnation */}
+        <div className="text-center mb-12">
+          <button 
+            onClick={scrollToFinalCTA}
+            className="bg-orange-600 hover:bg-orange-700 text-white px-8 py-4 text-lg font-semibold rounded-lg shadow-lg transform hover:scale-105 transition-all duration-200"
+          >
+            ► How Do I Fix This Blockage?
+          </button>
+        </div>
         
         <div className="mb-12">
           <h3 className="text-2xl font-bold text-center text-slate-900 mb-8">
@@ -128,13 +138,13 @@ const ScienceSection = () => {
           </p>
         </div>
         
-        {/* New CTA Button after Breakthrough Story */}
-        <div id="breakthrough-cta" className="text-center">
+        {/* Strategic CTA Button after Breakthrough Story */}
+        <div className="text-center">
           <button 
-            onClick={scrollToCTA}
-            className="bg-blue-600 hover:bg-blue-700 text-white px-8 py-4 text-lg font-semibold rounded-lg shadow-lg transform hover:scale-105 transition-all duration-200"
+            onClick={scrollToFinalCTA}
+            className="bg-green-600 hover:bg-green-700 text-white px-8 py-4 text-lg font-semibold rounded-lg shadow-lg transform hover:scale-105 transition-all duration-200"
           >
-            ► Yes! Show Me How This 3-Part System Works
+            ► What Made This Possible?
           </button>
         </div>
       </div>

@@ -22,8 +22,8 @@ const StorySection = () => {
     }
   ];
 
-  const scrollToNextCTA = () => {
-    document.getElementById('breakthrough-cta')?.scrollIntoView({ behavior: 'smooth' });
+  const scrollToFinalCTA = () => {
+    document.getElementById('cta-section')?.scrollIntoView({ behavior: 'smooth' });
   };
 
   return (
@@ -82,13 +82,23 @@ const StorySection = () => {
           </div>
         </div>
         
-        <div className="bg-slate-100 rounded-lg p-8 text-center">
+        <div className="bg-slate-100 rounded-lg p-8 text-center mb-8">
           <p className="text-xl text-slate-800 mb-4">
             As I watched this strong, independent woman become a prisoner in her own home, I realized something that <strong>shook me to my core</strong>:
           </p>
           <p className="text-2xl font-bold text-red-600">
             The system I had trusted for 30 years had nothing left to offer the people who needed help most.
           </p>
+        </div>
+
+        {/* Strategic CTA Button */}
+        <div className="text-center">
+          <button 
+            onClick={scrollToFinalCTA}
+            className="bg-blue-600 hover:bg-blue-700 text-white px-8 py-4 text-lg font-semibold rounded-lg shadow-lg transform hover:scale-105 transition-all duration-200"
+          >
+            ► See the Device That Helped My Mom
+          </button>
         </div>
       </div>
     </section>
