@@ -69,8 +69,8 @@ const GuaranteeSection = () => {
             <div className="bg-white rounded-lg p-8 shadow-lg">
               <div className="flex items-end justify-center space-x-8 h-64">
                 <div className="flex flex-col items-center">
-                  <div className="bg-red-500 w-20 h-48 rounded-t-lg flex items-end justify-center pb-4">
-                    <span className="text-white font-bold text-sm transform -rotate-90">$50,000+</span>
+                  <div className="bg-red-500 w-20 h-48 rounded-t-lg flex items-center justify-center">
+                    <span className="text-white font-bold text-xs text-center leading-tight">$50,000+</span>
                   </div>
                   <div className="text-center mt-4">
                     <h5 className="text-sm font-bold text-red-800">Knee Replacement</h5>

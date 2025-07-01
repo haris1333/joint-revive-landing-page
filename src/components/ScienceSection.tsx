@@ -64,29 +64,24 @@ const ScienceSection = () => {
           <div className="mt-8 bg-slate-50 rounded-lg p-6">
             <div className="grid md:grid-cols-2 gap-8 text-center">
               <div>
-                <h4 className="text-lg font-bold text-green-700 mb-4">Healthy Joint</h4>
-                <div className="bg-white rounded-lg p-4 h-40 flex items-center justify-center border-2 border-green-500">
-                  <div className="text-center">
-                    <div className="text-green-600 text-sm mb-2">Clear Blood Flow</div>
-                    <div className="flex justify-center space-x-2">
-                      <div className="w-3 h-8 bg-red-400 rounded"></div>
-                      <div className="w-3 h-8 bg-blue-400 rounded"></div>
-                    </div>
-                    <div className="text-xs text-slate-600 mt-2">Oxygen In → Waste Out</div>
-                  </div>
+                <h4 className="text-lg font-bold text-green-700 mb-4">Normal Joint</h4>
+                <div className="bg-white rounded-lg p-4 h-48 flex items-center justify-center border-2 border-green-500">
+                  <img 
+                    src="/lovable-uploads/6d342a9b-6f25-4d03-aa6d-1aa52d0aa324.png" 
+                    alt="Normal healthy joint diagram showing protected bone, lubricating fluid, and cushioning cartilage"
+                    className="max-w-full max-h-full object-contain"
+                  />
                 </div>
               </div>
               
               <div>
                 <h4 className="text-lg font-bold text-red-700 mb-4">"Inflammatory Stagnation"</h4>
-                <div className="bg-white rounded-lg p-4 h-40 flex items-center justify-center border-2 border-red-500">
-                  <div className="text-center">
-                    <div className="text-red-600 text-sm mb-2">Blocked Circulation</div>
-                    <div className="bg-yellow-200 rounded-full w-16 h-16 mx-auto flex items-center justify-center">
-                      <div className="text-red-600 text-xs">Toxic Fluid</div>
-                    </div>
-                    <div className="text-xs text-slate-600 mt-2">Suffocating Joint</div>
-                  </div>
+                <div className="bg-white rounded-lg p-4 h-48 flex items-center justify-center border-2 border-red-500">
+                  <img 
+                    src="/lovable-uploads/683204fd-ef1e-49aa-b82e-fbae522a912f.png" 
+                    alt="Inflamed joint showing painful end-stage arthritis with exposed bone, eroded cartilage, and inflamed capsule"
+                    className="max-w-full max-h-full object-contain"
+                  />
                 </div>
               </div>
             </div>
