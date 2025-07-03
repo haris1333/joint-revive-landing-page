@@ -1,4 +1,3 @@
-
 import React from 'react';
 import { Zap, RotateCcw, Sun } from 'lucide-react';
 
@@ -137,13 +136,13 @@ const ScienceSection = () => {
             Within two weeks of using my prototype, I looked out the window and saw my mother – the woman who hadn't been able to walk to the mailbox without wincing – <strong>kneeling in her garden, pulling weeds with her bare hands.</strong>
           </p>
           
-          {/* "After" Photo of Mother - Properly centered */}
+          {/* "After" Photo of Mother - Fixed sizing for desktop visibility */}
           <div className="mb-6 flex justify-center">
             <img 
               src="/lovable-uploads/d0d56aa6-6cb2-498f-82a7-dd1e82aa75f7.png" 
               alt="Elderly woman happily gardening, kneeling in bright sunny garden"
-              className="w-full max-w-xs h-auto object-cover rounded-lg shadow-md mx-auto"
-              style={{ maxHeight: '300px', objectFit: 'cover' }}
+              className="w-full max-w-sm h-auto object-cover rounded-lg shadow-md mx-auto"
+              style={{ maxHeight: '400px', objectFit: 'cover' }}
             />
           </div>
           
