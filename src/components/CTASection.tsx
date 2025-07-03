@@ -1,4 +1,3 @@
-
 import React from 'react';
 import { Button } from '@/components/ui/button';
 import { Shield, Clock } from 'lucide-react';
@@ -50,7 +49,7 @@ const CTASection = () => {
             size="lg" 
             className="bg-red-600 hover:bg-red-700 text-white px-4 sm:px-8 md:px-12 py-3 sm:py-4 md:py-6 text-sm sm:text-lg md:text-xl font-bold rounded-lg shadow-lg transform hover:scale-105 transition-all duration-200 mb-6 w-full max-w-xs sm:max-w-sm md:max-w-md mx-auto leading-tight"
           >
-            <span className="text-center">Yes, I Want My Life Back</span>
+            <span className="text-center">► Yes! Send Me the ReviveKnee™ Massager</span>
           </Button>
           
           <div className="flex flex-wrap justify-center gap-6 text-sm">

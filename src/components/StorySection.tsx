@@ -1,4 +1,3 @@
-
 import React from 'react';
 import { X, CheckCircle } from 'lucide-react';
 
@@ -38,13 +37,13 @@ const StorySection = () => {
             <div className="bg-blue-50 rounded-lg p-6 mb-6">
               <h3 className="text-xl font-bold text-slate-900 mb-4">My Mother at 72:</h3>
               
-              {/* "Before" Photo of Mother - Fixed sizing for desktop visibility */}
+              {/* "Before" Photo of Mother - Properly centered */}
               <div className="mb-4 flex justify-center">
                 <img 
                   src="/lovable-uploads/6c0d3e4c-105a-45b4-8cda-a986f02bcc2e.png" 
                   alt="Elderly woman sitting sadly by window looking at garden"
-                  className="w-full max-w-sm h-auto object-cover rounded-lg shadow-md mx-auto"
-                  style={{ maxHeight: '400px', objectFit: 'cover' }}
+                  className="w-full max-w-xs h-auto object-cover rounded-lg shadow-md mx-auto"
+                  style={{ maxHeight: '300px', objectFit: 'cover' }}
                 />
               </div>
               
