@@ -1,4 +1,3 @@
-
 import React from 'react';
 import { Button } from '@/components/ui/button';
 
@@ -16,7 +15,7 @@ const HeroSection = () => {
           </span>
           <h1 className="text-4xl md:text-5xl font-bold text-slate-900 mb-6 leading-tight">
             Retired Orthopedic Surgeon: <br />
-            <span className="text-red-600">"I Recommended Surgery for 30 Years. <br />Now I Tell Patients to Try This First."</span>
+            <span className="text-red-600">"I Recommended 5,000 Knee Surgeries — Until My Own Mother Needed One"</span>
           </h1>
           <p className="text-xl text-slate-700 mb-8 max-w-3xl mx-auto">
             Dr. Klaus Richter reveals why the medical system failed his own mother – and the at-home breakthrough that's helping thousands avoid the knife.
