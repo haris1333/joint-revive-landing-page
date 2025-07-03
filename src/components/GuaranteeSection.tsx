@@ -1,4 +1,3 @@
-
 import React from 'react';
 import { Shield, Clock, Award } from 'lucide-react';
 
@@ -36,17 +35,6 @@ const GuaranteeSection = () => {
               </div>
               <h3 className="text-xl font-bold text-slate-900 mb-3">{feature.title}</h3>
               <p className="text-slate-700">{feature.description}</p>
-              
-              {/* Replace tree photo with grandfather and granddaughter */}
-              {feature.title === "Comfort-Fit™ Strapping System" && (
-                <div className="mt-4">
-                  <img 
-                    src="/lovable-uploads/cb24501a-55f1-41e6-b067-1bf867eefdee.png" 
-                    alt="Happy grandfather and granddaughter gardening together"
-                    className="w-full h-32 object-cover rounded-lg shadow-md"
-                  />
-                </div>
-              )}
             </div>
           ))}
         </div>

@@ -1,4 +1,3 @@
-
 import React from 'react';
 import { Button } from '@/components/ui/button';
 import { Shield, Clock } from 'lucide-react';
@@ -30,11 +29,11 @@ const CTASection = () => {
         <div className="bg-white rounded-lg shadow-2xl p-8 mb-8 text-slate-900">
           <h3 className="text-2xl font-bold mb-6 text-red-600">Order Your ReviveKnee™ Massager Today</h3>
           
-          {/* Updated "What's in the Box" Image */}
+          {/* Updated product image */}
           <div className="mb-6">
             <img 
-              src="/lovable-uploads/5f174e17-ff34-400d-a956-2cb50f643d37.png" 
-              alt="ReviveKnee™ Massager complete package with device and accessories"
+              src="/lovable-uploads/7981f3f7-7169-4d8d-88c2-6349d0980382.png" 
+              alt="Happy elderly couple walking together in garden"
               className="w-full max-w-md mx-auto h-auto object-contain rounded-lg shadow-md"
             />
             <p className="text-sm text-slate-600 mt-2">Complete package includes: ReviveKnee™ Massager, charging cable, and extension straps</p>
