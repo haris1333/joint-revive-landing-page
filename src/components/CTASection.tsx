@@ -1,10 +1,11 @@
+
 import React from 'react';
 import { Button } from '@/components/ui/button';
 import { Shield, Clock } from 'lucide-react';
 
 const CTASection = () => {
   const handleOrderClick = () => {
-    window.open('https://healthylivingforall.online/products/knee', '_blank');
+    window.open('https://refhide.com/?https://healthylivingforall.online/products/knee', '_blank');
   };
 
   return (
