@@ -4,7 +4,7 @@ import { Shield, Clock } from 'lucide-react';
 
 const CTASection = () => {
   const handleOrderClick = () => {
-    window.open('https://refhide.com/?https://shorturl.at/1KVgE', '_blank');
+    window.open('https://www.storeherepls.store/products/knee', '_blank');
   };
 
   return (
